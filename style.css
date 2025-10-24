@@ -1,0 +1,32 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+  min-height: 100vh; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page-header {
+  background-color: green; 
+  text-align: center;
+  padding: 1px;
+}
+
+.main-article {
+  background-color: yellow; 
+  padding: 1.5px;
+}
+
+.page-footer {
+  background-color: red; 
+  text-align: center;
+  padding: 1px;
+}
+
+#gambarartikel {
+  float: left;             
+  margin: 1px 1px ;   
+  width: 150px;            
+  height: auto;
+  border-radius: 8px;    
+}
